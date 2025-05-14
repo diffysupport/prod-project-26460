@@ -1,0 +1,68 @@
+basic:
+    name: strengtheningvcfamilies.venturacounty.gov
+    environments:
+        production: 'https://strengtheningvcfamilies.org/'
+        staging: 'https://s47910.p1092.sites.pressdns.com/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - 'wp-login.php?redirect_to=https:/strengtheningvcfamilies.org'
+        - contact
+        - about
+        - media
+        - make-a-donation
+        - programs
+        - bwh
+        - faith-in-motion
+        - permanency
+        - healthy-start
+        - resource-families
+        - neighborstogether
+        - trafficking
+        - helping-teens
+        - resources
+        - events-calendar
+        - respite-care
+        - socialworkers
+        - bwh-partners
+        - homes-with-hearts-resources
+        - become-a-resource-parent
+        - foster-family-agencies
+        - resource-families/continuing-education
+        - faqs
+        - education
+        - need-help
+        - human-trafficking-response-team
+        - readytostop
+        - support-youth-vc
+        - svcf
+        - '?page_id=6695'
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
